@@ -1,0 +1,26 @@
+{
+  "name": "cypress_practice",
+  "version": "1.0.0",
+  "description": "student work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aliaksei78/Cypress_practice.git"
+  },
+  "author": "Alexei Revenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aliaksei78/Cypress_practice/issues"
+  },
+  "homepage": "https://github.com/Aliaksei78/Cypress_practice#readme",
+  "devDependencies": {
+    "cypress": "^10.10.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
