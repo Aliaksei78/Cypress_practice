@@ -1,12 +1,13 @@
 # Cypress_practice
+В решении использовал BDD (Behavior Driven Development), а именно cypress-cucumber-preprocessor
 
 Задание 1	
 REQ_01: User is able to add single and multiple color product to the card
-1.	Navigate to https://store.google.com/collection/accessories_wall https://store.google.com/us/collection/accessories_wall?hl=en-US
+1.	Navigate to https://store.google.com/us/collection/accessories_wall?hl=en-US
 2. Прочитать данные о продукте из файла			
 3. Найти продукт в приложении и запомнить его имя		
 4. Кликнуть Buy на следующей странице				
-5. Кликнуть Add to Cart если для продукта доступен выбор цвета (цвет и цену выбрать случайно и запомнить выбор)	
+5. Кликнуть Add to Cart, если для продукта доступен выбор цвета (цвет выбрать случайно и запомнить выбор)	
 6. В корзине проверить данные о продукте: наименование, цвет, количество, цену, общую цену. Убедиться что продукт в корзине один.
 7. Очистка данных (корзина должна быть пуста в следующей сессии)				
 
