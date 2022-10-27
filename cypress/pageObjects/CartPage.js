@@ -23,6 +23,14 @@ class CartPage {
     getAllProducts() {
         return cy.get('.kGEQJf')
     }
+
+    getAllButtonsDelete() {
+        return cy.get('.yjHiqb[jsaction="click:IY6UFe" ]')
+    }
+
+    getInscriptionAboutEmpty() {
+        return cy.get('.RnH0Af')
+    }
 }
 
 export default new CartPage
